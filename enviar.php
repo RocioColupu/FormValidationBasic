@@ -6,7 +6,7 @@
         $correo= $_POST['correo'];
         $celular= $_POST['celular'];
 
-        $destinatario= 'gbarboza.es@gmail.com';
+        $destinatario= 'pprado929@gmail.com';
 
         $asunto= 'Actividad 2 Rocio Colupu Quinto ciclo';
 
