@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <article class="container col-xs-12 col-sm-12 col-md-6 col-xl-4">
+        <section class="title">
+            <span>¡Matrícula Gratis!</span>
+        </section>
+        <section class="formulario">
+            <span>Solicita más información aquí</span>
+            <form action="enviar.php" method="post">
+                <div class="form-group">
+                    <input type="text" placeholder="Nombres" name="nombre" maxlength="30" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Apellidos" name="apellido" maxlength="30" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Correo Electronico" name="correo" maxlength="30" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Teléfono / Celular" name="celular" maxlength="9" required>
+                </div>
+                <div class="col-xs-10 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                    <label class="form-check-label" id="link" for="exampleCheck1"> Acepto haber leido los <a href=""> politicas de
+                            privacidad</a> y los <a href="">terminos y condiciones</a></label>
+                </div>
+                <div>
+                    <button class="button btn btn-dark" type="submit" value="Solicitar">Solicitar</button>
+                </div>
+                
+            </form>
+        </section>
+    </article>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
